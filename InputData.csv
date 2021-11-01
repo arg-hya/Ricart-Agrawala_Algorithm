@@ -1,0 +1,7 @@
+#Node config will come here
+#Nodes need to be defined as nodename,portnumber
+proc1,50001
+proc2,50002
+proc3,50003
+proc4,50004
+proc5,50005

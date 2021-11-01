@@ -1,0 +1,37 @@
+proc1 50001 - 25-10-2021 20:01:45 #  Listening started on this node
+proc1 50001 - 25-10-2021 20:01:45 #  Deffering CS request by 1 seconds
+proc1 50001 - 25-10-2021 20:01:46 #  Sending CS request to node 50002 - "REQUEST,50001,1"
+proc1 50001 - 25-10-2021 20:01:46 #  Sending CS request to node 50003 - "REQUEST,50001,1"
+proc1 50001 - 25-10-2021 20:01:46 #  Sending CS request to node 50004 - "REQUEST,50001,1"
+proc1 50001 - 25-10-2021 20:01:46 #  Sending CS request to node 50005 - "REQUEST,50001,1"
+proc1 50001 - 25-10-2021 20:01:46 #  Received REPLY node 50002
+proc1 50001 - 25-10-2021 20:01:46 #  Removing 50002 from reply waiting queue
+proc1 50001 - 25-10-2021 20:01:46 #  Received REPLY node 50003
+proc1 50001 - 25-10-2021 20:01:46 #  Removing 50003 from reply waiting queue
+proc1 50001 - 25-10-2021 20:01:46 #  Awaiting reply from nodes [50002, 50004, 50005]
+proc1 50001 - 25-10-2021 20:01:46 #  Awaiting reply from nodes [50004, 50005]
+proc1 50001 - 25-10-2021 20:01:46 #  Received REPLY node 50004
+proc1 50001 - 25-10-2021 20:01:46 #  Removing 50004 from reply waiting queue
+proc1 50001 - 25-10-2021 20:01:46 #  Received REPLY node 50005
+proc1 50001 - 25-10-2021 20:01:46 #  Awaiting reply from nodes [50005]
+proc1 50001 - 25-10-2021 20:01:46 #  Removing 50005 from reply waiting queue
+proc1 50001 - 25-10-2021 20:01:46 #  Executing CS
+proc1 50001 - 25-10-2021 20:01:47 #  Received request for CS execution from node 50002 TS = 2
+proc1 50001 - 25-10-2021 20:01:47 #  Deffering request REQUEST,50002,2
+proc1 50001 - 25-10-2021 20:01:48 #  Received request for CS execution from node 50003 TS = 3
+proc1 50001 - 25-10-2021 20:01:48 #  Deffering request REQUEST,50003,3
+proc1 50001 - 25-10-2021 20:01:49 #  Received request for CS execution from node 50004 TS = 4
+proc1 50001 - 25-10-2021 20:01:49 #  Deffering request REQUEST,50004,4
+proc1 50001 - 25-10-2021 20:01:50 #  Received request for CS execution from node 50005 TS = 5
+proc1 50001 - 25-10-2021 20:01:50 #  Deffering request REQUEST,50005,5
+proc1 50001 - 25-10-2021 20:01:56 #  Critical section execution finished
+proc1 50001 - 25-10-2021 20:01:56 #  processing deffered queue
+proc1 50001 - 25-10-2021 20:01:56 #  Current deferred request queue is ['REQUEST,50002,2', 'REQUEST,50003,3', 'REQUEST,50004,4', 'REQUEST,50005,5']
+proc1 50001 - 25-10-2021 20:01:56 #  Sending deffered REPLY to 50002
+proc1 50001 - 25-10-2021 20:01:56 #  Sending "REPLY,50001" to 50002
+proc1 50001 - 25-10-2021 20:01:56 #  Sending deffered REPLY to 50003
+proc1 50001 - 25-10-2021 20:01:56 #  Sending "REPLY,50001" to 50003
+proc1 50001 - 25-10-2021 20:01:56 #  Sending deffered REPLY to 50004
+proc1 50001 - 25-10-2021 20:01:56 #  Sending "REPLY,50001" to 50004
+proc1 50001 - 25-10-2021 20:01:56 #  Sending deffered REPLY to 50005
+proc1 50001 - 25-10-2021 20:01:56 #  Sending "REPLY,50001" to 50005

@@ -1,0 +1,27 @@
+proc5 50005 - 25-10-2021 20:01:45 #  Listening started on this node
+proc5 50005 - 25-10-2021 20:01:45 #  Deffering CS request by 5 seconds
+proc5 50005 - 25-10-2021 20:01:46 #  Received request for CS execution from node 50001 TS = 1
+proc5 50005 - 25-10-2021 20:01:46 #  Sending "REPLY,50005" to 50001
+proc5 50005 - 25-10-2021 20:01:47 #  Received request for CS execution from node 50002 TS = 2
+proc5 50005 - 25-10-2021 20:01:47 #  Sending "REPLY,50005" to 50002
+proc5 50005 - 25-10-2021 20:01:48 #  Received request for CS execution from node 50003 TS = 3
+proc5 50005 - 25-10-2021 20:01:48 #  Sending "REPLY,50005" to 50003
+proc5 50005 - 25-10-2021 20:01:49 #  Received request for CS execution from node 50004 TS = 4
+proc5 50005 - 25-10-2021 20:01:49 #  Sending "REPLY,50005" to 50004
+proc5 50005 - 25-10-2021 20:01:50 #  Sending CS request to node 50001 - "REQUEST,50005,5"
+proc5 50005 - 25-10-2021 20:01:50 #  Sending CS request to node 50002 - "REQUEST,50005,5"
+proc5 50005 - 25-10-2021 20:01:50 #  Sending CS request to node 50003 - "REQUEST,50005,5"
+proc5 50005 - 25-10-2021 20:01:50 #  Sending CS request to node 50004 - "REQUEST,50005,5"
+proc5 50005 - 25-10-2021 20:01:56 #  Received REPLY node 50001
+proc5 50005 - 25-10-2021 20:01:56 #  Removing 50001 from reply waiting queue
+proc5 50005 - 25-10-2021 20:01:56 #  Awaiting reply from nodes [50002, 50003, 50004]
+proc5 50005 - 25-10-2021 20:02:06 #  Received REPLY node 50002
+proc5 50005 - 25-10-2021 20:02:06 #  Removing 50002 from reply waiting queue
+proc5 50005 - 25-10-2021 20:02:06 #  Awaiting reply from nodes [50003, 50004]
+proc5 50005 - 25-10-2021 20:02:16 #  Received REPLY node 50003
+proc5 50005 - 25-10-2021 20:02:16 #  Removing 50003 from reply waiting queue
+proc5 50005 - 25-10-2021 20:02:16 #  Awaiting reply from nodes [50004]
+proc5 50005 - 25-10-2021 20:02:26 #  Received REPLY node 50004
+proc5 50005 - 25-10-2021 20:02:26 #  Removing 50004 from reply waiting queue
+proc5 50005 - 25-10-2021 20:02:26 #  Executing CS
+proc5 50005 - 25-10-2021 20:02:36 #  Critical section execution finished
